@@ -168,5 +168,5 @@ func (f *Frontend) PrintDashboardLog() {
 		log = fmt.Sprintf(format, host, port)
 	}
 
-	f.logger.V(0).Infof("If enable dashboard, view it by accessing: %s", logger.Bold(log))
+	f.logger.V(0).Infof("If enabled dashboard, view it by accessing: %s", logger.Bold(log))
 }
